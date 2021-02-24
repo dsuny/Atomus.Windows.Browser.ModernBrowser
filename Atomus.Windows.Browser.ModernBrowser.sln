@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E644C691-A88D-4724-ADFD-77CC9410A1D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Windows.Browser.ModernBrowser(dotNet)", "dotNet\Atomus.Windows.Browser.ModernBrowser(dotNet).csproj", "{83F03F07-6A7E-4E56-B21C-232CAF5FB40D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers", "{11DA99D2-010C-4C97-883A-483C151E6297}"
+	ProjectSection(SolutionItems) = preProject
+		src\Controllers\ModernBrowserController.cs = src\Controllers\ModernBrowserController.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{E2730E5E-B4DE-4916-AFA9-97EB4E69DD41}"
+	ProjectSection(SolutionItems) = preProject
+		src\Models\ModernBrowserSearchModel.cs = src\Models\ModernBrowserSearchModel.cs
+		src\Models\ModernBrowserSearchParentMenuModel.cs = src\Models\ModernBrowserSearchParentMenuModel.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "View", "View", "{A1197267-E201-4CC9-9A46-BD188C2C5061}"
+	ProjectSection(SolutionItems) = preProject
+		src\View\ModernApp.xaml = src\View\ModernApp.xaml
+		src\View\ModernApp.xaml.cs = src\View\ModernApp.xaml.cs
+		src\View\ModernBrowser.xaml = src\View\ModernBrowser.xaml
+		src\View\ModernBrowser.xaml.cs = src\View\ModernBrowser.xaml.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ViewModel", "ViewModel", "{1AEE1641-83E4-4B4F-A9D9-3110EC5B3E0C}"
+	ProjectSection(SolutionItems) = preProject
+		src\ViewModel\ModernBrowserViewModel.cs = src\ViewModel\ModernBrowserViewModel.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83F03F07-6A7E-4E56-B21C-232CAF5FB40D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83F03F07-6A7E-4E56-B21C-232CAF5FB40D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83F03F07-6A7E-4E56-B21C-232CAF5FB40D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83F03F07-6A7E-4E56-B21C-232CAF5FB40D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{11DA99D2-010C-4C97-883A-483C151E6297} = {E644C691-A88D-4724-ADFD-77CC9410A1D3}
+		{E2730E5E-B4DE-4916-AFA9-97EB4E69DD41} = {E644C691-A88D-4724-ADFD-77CC9410A1D3}
+		{A1197267-E201-4CC9-9A46-BD188C2C5061} = {E644C691-A88D-4724-ADFD-77CC9410A1D3}
+		{1AEE1641-83E4-4B4F-A9D9-3110EC5B3E0C} = {E644C691-A88D-4724-ADFD-77CC9410A1D3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D837C2E4-1F6B-4630-8A55-7B7F6D7D5698}
+	EndGlobalSection
+EndGlobal
